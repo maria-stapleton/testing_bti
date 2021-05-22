@@ -6,59 +6,95 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>BTI Timeline</title>
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="timelineslider.js">
+		<link rel="stylesheet" href="interactive.js">
 	</head>
 	<body>
 <main>
 	
-	<div class="container">
-		<h1 class="title">Responsive Slider Timeline</h1>
-		<div class="timeline">
-		  <div class="swiper-container">
-			<div class="swiper-wrapper">
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=11" data-year="2011">
-				<div class="swiper-slide-content"><span class="timeline-year">2011</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=12" data-year="2012">
-				<div class="swiper-slide-content"><span class="timeline-year">2012</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=13" data-year="2013">
-				<div class="swiper-slide-content"><span class="timeline-year">2013</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=14" data-year="2014">
-				<div class="swiper-slide-content"><span class="timeline-year">2014</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=15" data-year="2015">
-				<div class="swiper-slide-content"><span class="timeline-year">2015</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			  <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=16" data-year="2016">
-				<div class="swiper-slide-content"><span class="timeline-year">2016</span>
-				  <h4 class="timeline-title">Our nice super title</h4>
-				  <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
-			<div class="swiper-pagination"></div>
-		  </div>
+	<body data-spy="scroll" data-target="#navbar-example">
+
+		<div class="wrapper">
+	  
+		  <nav class="nav__wrapper" id="navbar-example">
+			<ul class="nav">
+	  
+			  <li role="presentation" class="active">
+				<a href="#section1">
+				  <span class="nav__counter">01</span>
+				  <h3 class="nav__title">Intro</h3>
+				  <p class="nav__body"><strong>Timeline-style navigation</strong>. Scroll down to see what happens, or click on a number in the nav.</p>
+				</a>
+			  </li>
+	  
+			  <li role="presentation">
+				<a href="#section2">
+				  <span class="nav__counter">02</span>
+				  <h3 class="nav__title">Section 2 Title</h3>
+				  <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
+				</a>
+			  </li>
+	  
+			  <li role="presentation">
+				<a href="#section3">
+				  <span class="nav__counter">03</span>
+				  <h3 class="nav__title">Section 3 Title</h3>
+				  <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
+				</a>
+			  </li>
+	  
+			  <li role="presentation">
+				<a href="#section4">
+				  <span class="nav__counter">04</span>
+				  <h3 class="nav__title">Section 4 Title</h3>
+				  <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
+				</a>
+			  </li>
+	  
+			  <li role="presentation">
+				<a href="#section5">
+				  <span class="nav__counter">05</span>
+				  <h3 class="nav__title">Section 5 Title</h3>
+				  <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
+				</a>
+			  </li>
+	  
+			  <li role="presentation">
+				<a href="#section6">
+				  <span class="nav__counter">06</span>
+				  <h3 class="nav__title">Section 6 Title</h3>
+				  <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
+				</a>
+			  </li>
+	  
+			</ul>
+		  </nav>
+	  
+		  <section class="section section1" id="section1">
+			Scroll down or use the nav.
+		  </section>
+	  
+		  <section class="section section2" id="section2">
+			Section 2
+		  </section>
+	  
+		  <section class="section section3" id="section3">
+			Section 3
+		  </section>
+	  
+		  <section class="section section4" id="section4">
+			Section 4
+		  </section>
+	  
+		  <section class="section section5" id="section5">
+			Section 5
+		  </section>
+	  
+		  <section class="section section6" id="section6">
+			Section 6
+		  </section>
+	  
 		</div>
-	  </div>
+	  </body>
 </body>
 </html>
 
