@@ -2,48 +2,48 @@
   min-height: 100vh;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
-  color: #fff;
+  color: #2F4F4F;
   position: relative;
 }
 
 section {
   height: 100vh;
-  width: 90vh;
+  width: 80vw;
   float: right;
   font-size: 40px;
   font-weight: 100;
-  background-color: #849EBE ;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 section:nth-child(1) {
-  background: #d9ccad;
+  background: #f0f0f0;
 }
 section:nth-child(2) {
-  background: #849EBE;
+  background: white;
 }
 section:nth-child(3) {
-  background: #d9ccad;
+  background: #f0f0f0;
 }
 section:nth-child(4) {
-  background: #849EBE;
+  background: white;
 }
 section:nth-child(5) {
-  background: #d9ccad;
+  background: #f0f0f0;
 }
 section:nth-child(6) {
-  background: #849EBE;
+  background: white;
 }
 section:nth-child(7) {
-  background: #d9ccad;
+  background: #f0f0f0;
 }
 
 
 .nav__wrapper {
   position: fixed;
   height: 100%;
-  padding: 8hv;
+  padding: 20vw;
   position: left;
   display: flex;
   flex-flow: column nowrap;
@@ -54,13 +54,16 @@ section:nth-child(7) {
 }
 .nav__counter {
   font-size: 18px;
+  font-weight: bold;
   transition: all 0.15s ease-out;
-  colour: #2F4F4F;
+  color: white;
+  background-color: #849ebe;
 }
 .nav__title {
   font-size: 14px;
   font-weight: 300;
-  colour: #2F4F4F;
+  color: white;
+  background-color: #849ebe;
   margin: 0 0 0.25em;
   width: 300px;
   height: 0;
@@ -72,6 +75,8 @@ section:nth-child(7) {
   font-weight: 100;
   font-size: 18px;
   font-size: 18px;
+  color: white;
+  background-color: #849ebe;
   width: 300px;
   height: 0;
   overflow: hidden;
@@ -86,8 +91,8 @@ section:nth-child(7) {
 .nav li:after {
   content: "";
   display: block;
-  border-left: 2px solid white;
-  border-top: 2px solid white;
+  border-left: 2px solid #2F4F4F;
+  border-top: 2px solid #2F4F4F;
   height: 250px;
   width: 20px;
   position: absolute;
@@ -98,7 +103,7 @@ section:nth-child(7) {
 .nav li a {
   display: block;
   padding: 0;
-  color: #fff;
+  color: #2F4F4F;
   transition: all 0.15s ease-out;
 }
 .nav li a:hover {
@@ -119,14 +124,17 @@ section:nth-child(7) {
 }
 .nav li.active .nav__counter {
   font-size: 48px;
+  color: #2F4F4F;
 }
 .nav li.active .nav__title {
   height: 40px;
   opacity: 1;
   overflow: visible;
+  color: #2F4F4F;
 }
 .nav li.active .nav__body {
   height: 100px;
+  color: #2F4F4F;
   opacity: 1;
   overflow: visible;
 }
