@@ -1,5 +1,7 @@
 .wrapper {
   min-height: 100vh;
+  width: 20vw;
+  background-color:#849ebe ;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
   color: #2F4F4F;
