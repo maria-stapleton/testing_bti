@@ -1,5 +1,5 @@
 .header {
-  padding: 40px;
+  padding: 1.5em;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -26,10 +26,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
+
 section:nth-child(1) {
   background: #f0f0f0;
 }
@@ -63,7 +61,8 @@ section:nth-child(7) {
   
 }
 .nav {
-  margin: 15% 80% 15% 5%;
+  position:absolute;
+  left: 0;
 
 }
 .nav__counter {
