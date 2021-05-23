@@ -1,5 +1,5 @@
 .header {
-  padding: 20vh;
+  padding: 10vh;
   text-align: center;
   background: #849ebe;
   color: white;
@@ -49,99 +49,36 @@ section:nth-child(6) {
 section:nth-child(7) {
   background: #f0f0f0;
 }
+section:nth-child(8) {
+  background: white;
+}
+section:nth-child(9) {
+  background: #f0f0f0;
+}
 
 
-.nav__wrapper {
-  height: 80vh;
-  padding: 20vw;
-  position: fixed;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
-  
+nav {
+  white-space: nowrap;
+  background: #37474F;
 }
-.nav {
-  position:relative;
-  left: 0;
-
-}
-.nav__counter {
-  font-size: 18px;
-  font-weight: bold;
-  transition: all 0.15s ease-out;
-  color: black;
-}
-.nav__title {
-  font-size: 14px;
-  font-weight: 300;
-  color: black;
-  margin: 0 0 0.25em;
-  width: 300px;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: height 0.3s ease-out, opacity 0.2s ease-out;
-}
-.nav__body {
-  font-weight: 100;
-  font-size: 18px;
-  font-size: 18px;
-  color: black;
-  width: 300px;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: height 0.3s ease-out, opacity 0.2s ease-out;
-}
-.nav li {
-  position: relative;
-  transition: all 0.3s ease-out;
-  margin-bottom: 1em;
-}
-.nav li:after {
-  content: "";
-  display: block;
-  border-left: 2px solid #849ebe;
-  border-top: 2px solid #2F4F4F;
-  height: 250px #849ebe;
-  width: 20px #849ebe;
-  position: absolute;
-  left: -30px;
-  top: 15px;
-  padding: 20px #849ebe
-}
-.nav li a {
-  display: block;
+nav ul {
+  list-style: none;
+  margin: 0;
   padding: 0;
-  color: #2F4F4F;
-  transition: all 0.15s ease-out;
 }
-.nav li a:hover {
-  padding-left: 1em;
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
 }
-.nav li a:focus {
-  background-color: transparent;
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
 }
-.nav li.active {
-  pointer-events: none;
-  padding-left: 1em;
-}
-.nav li.active:after {
-  width: 35px;
-  height: 400px;
-  top: 35px;
-}
-.nav li.active .nav__counter {
-  font-size: 48px;
-  color: black;
-}
-.nav li.active .nav__title {
-  height: 40px;
-  opacity: 1;
-  overflow: visible;
-}
-.nav li.active .nav__body {
-  height: 100px;
-  opacity: 1;
-  overflow: visible;
+nav ul li a.current {
+  background: black;
 }
