@@ -1,5 +1,13 @@
+.header {
+  padding: 15hv;
+  text-align: center;
+  background: #849ebe;
+  color: white;
+  font-size: 30px;
+}
+
 .wrapper {
-  min-height: 100vh;
+  min-height: 85vh;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
   color: #2F4F4F;
