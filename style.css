@@ -1,5 +1,5 @@
 .header {
-  padding: 1.5em;
+  padding: 40px;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -62,7 +62,7 @@ section:nth-child(7) {
   
 }
 .nav {
-  position:absolute;
+  position:relative;
   left: 0;
 
 }
