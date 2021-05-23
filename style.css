@@ -1,5 +1,6 @@
 .header {
-  padding: 20hv;
+  height: 20vh;
+  width: 100vw;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -51,17 +52,17 @@ section:nth-child(7) {
 
 
 .nav__wrapper {
-  position: fixed;
-  height: 100%;
+  height: 80vh;
   padding: 20vw;
-  position: left;
+  position: fixed;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
   
 }
 .nav {
-  margin-left:auto;
+  margin: 0 0 100px 30px;
+
 }
 .nav__counter {
   font-size: 18px;
