@@ -1,5 +1,5 @@
 .header {
-  padding: 20vh;
+  padding: 40px;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -26,6 +26,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 section:nth-child(1) {
   background: #f0f0f0;
@@ -57,7 +60,6 @@ section:nth-child(7) {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  margin: 15% 80% 15% 5%;
   
 }
 .nav {
