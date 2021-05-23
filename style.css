@@ -1,5 +1,5 @@
 .header {
-  padding: 45px;
+  padding: 20vh;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -17,7 +17,7 @@
 }
 
 section {
-  height: 100vh;
+  height: 80vh;
   width: 80vw;
   float: right;
   font-size: 40px;
@@ -57,6 +57,7 @@ section:nth-child(7) {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
+  margin: 15% 80% 15% 5%;
   
 }
 .nav {
@@ -67,14 +68,12 @@ section:nth-child(7) {
   font-size: 18px;
   font-weight: bold;
   transition: all 0.15s ease-out;
-  color: white;
-  background-color: #849ebe;
+  color: black;
 }
 .nav__title {
   font-size: 14px;
   font-weight: 300;
-  color: white;
-  background-color: #849ebe;
+  color: black;
   margin: 0 0 0.25em;
   width: 300px;
   height: 0;
@@ -86,8 +85,7 @@ section:nth-child(7) {
   font-weight: 100;
   font-size: 18px;
   font-size: 18px;
-  color: white;
-  background-color: #849ebe;
+  color: black;
   width: 300px;
   height: 0;
   overflow: hidden;
@@ -118,11 +116,10 @@ section:nth-child(7) {
   transition: all 0.15s ease-out;
 }
 .nav li a:hover {
-  background-color: #849ebe;
   padding-left: 1em;
 }
 .nav li a:focus {
-  background-color: #849ebe;
+  background-color: transparent;
 }
 .nav li.active {
   pointer-events: none;
@@ -135,7 +132,7 @@ section:nth-child(7) {
 }
 .nav li.active .nav__counter {
   font-size: 48px;
-  color: white;
+  color: black;
 }
 .nav li.active .nav__title {
   height: 40px;
