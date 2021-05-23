@@ -1,6 +1,5 @@
 .header {
-  height: 20vh;
-  width: 100vw;
+  padding: 40pc;
   position: fixed;
   text-align: center;
   background: #849ebe;
@@ -61,7 +60,7 @@ section:nth-child(7) {
   
 }
 .nav {
-  margin: 0 0 100px 30px;
+  margin: 0 0 100px 15px;
 
 }
 .nav__counter {
