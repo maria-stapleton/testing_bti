@@ -44,8 +44,6 @@ section:nth-child(7) {
   position: fixed;
   height: 100%;
   padding: 20vw;
-  background-color: #849ebe;
-  overflow: hidden;
   position: left;
   display: flex;
   flex-flow: column nowrap;
@@ -94,14 +92,14 @@ section:nth-child(7) {
 .nav li:after {
   content: "";
   display: block;
-  border-left: 2px solid #2F4F4F;
+  border-left: 2px solid #849ebe;
   border-top: 2px solid #2F4F4F;
-  height: 250px;
-  width: 20px;
+  height: 250px #849ebe;
+  width: 20px #849ebe;
   position: absolute;
   left: -30px;
   top: 15px;
-  padding: 2px
+  padding: 20px #849ebe
 }
 .nav li a {
   display: block;
@@ -110,11 +108,11 @@ section:nth-child(7) {
   transition: all 0.15s ease-out;
 }
 .nav li a:hover {
-  background-color: transparent;
+  background-color: #849ebe;
   padding-left: 1em;
 }
 .nav li a:focus {
-  background-color: transparent;
+  background-color: #849ebe;
 }
 .nav li.active {
   pointer-events: none;
@@ -127,17 +125,15 @@ section:nth-child(7) {
 }
 .nav li.active .nav__counter {
   font-size: 48px;
-  color: #2F4F4F;
+  color: white;
 }
 .nav li.active .nav__title {
   height: 40px;
   opacity: 1;
   overflow: visible;
-  color: #2F4F4F;
 }
 .nav li.active .nav__body {
   height: 100px;
-  color: #2F4F4F;
   opacity: 1;
   overflow: visible;
 }
