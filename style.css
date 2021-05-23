@@ -44,11 +44,13 @@ section:nth-child(7) {
   position: fixed;
   height: 100%;
   padding: 20vw;
+  background-color: #849ebe;
+  overflow: hidden;
   position: left;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  background-color: #849ebe;
+  
 }
 .nav {
   margin: 0 0 15px 30px;
