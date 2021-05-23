@@ -31,7 +31,7 @@ section:nth-child(5) {
   background: #849EBE;
 }
 section:nth-child(6) {
-  background: #white;
+  background: white;
 }
 section:nth-child(7) {
   background: #849EBE;
@@ -90,7 +90,7 @@ section:nth-child(7) {
 }
 .nav li a {
   display: block;
-  padding: 20;
+  padding: 40px;
   color: #fff;
   transition: all 0.15s ease-out;
 }
