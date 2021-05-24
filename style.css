@@ -61,7 +61,7 @@ section:nth-child(9) {
 nav {
   white-space: nowrap;
   background: #849ebe;
-  width: 15vw;
+  width: 1.5em;
   height: 100vh;
 }
 nav ul {
@@ -69,13 +69,12 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-/* Only stick if you can fit */
-@media (min-height: 300px) {
+
   nav ul {
     position: sticky;
     top: 0;
   }
-}
+
 nav ul li a {
   display: block;
   padding: 0.5rem 1rem;
