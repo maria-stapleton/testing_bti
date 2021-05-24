@@ -18,7 +18,7 @@
 }
 
 section {
-  height: 100vh;
+  height: autovh;
   width: 80vw;
   float: right;
   font-size: 40px;
