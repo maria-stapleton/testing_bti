@@ -82,54 +82,50 @@ nav ul li a.current {
   background: black;
 }
 
-.grid {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 20px;
+body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
 }
 
-
-.item {
-  background-color: #ffffff;
+h2 {
+  color: coral;
 }
 
-.photothumb {
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
   width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
 }
-
-.title {
-  padding: 20px;
+.grid-container div:hover img {
+  filter: grayscale(0);
 }
-
-.title h3 {
-  font-size: 1.2em;
-  color: #ffffff;
-  text-transform: uppercase;
+.grid-container div:hover {
+  border-color: coral;
 }
-
-.project .title {
-  background-color: #607d8b;
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
 }
-
-.blog .title {
-  background-color: #ff9800;
-}
-
-.photo .title {
-  background-color: #f44336;
-}
-
-.desc {
-  padding: 10px 10px 5px 10px;
-}
-
-.desc img {
-  width: 50%;
-  margin: 0 10px 10px 0;
-  float: left;
-}
-
-.desc p {
-  margin-bottom: 10px;
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
 }
