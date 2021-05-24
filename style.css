@@ -18,15 +18,11 @@
 }
 
 section {
-  height: 100vh;
+  height: fit-content;
   width: 80vw;
   float: right;
-  font-size: 40px;
-  font-weight: 100;
   background-color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 section:nth-child(1) {
