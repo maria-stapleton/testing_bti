@@ -1,5 +1,6 @@
 .header {
-  padding: 10vh;
+  height: 15vh;
+  width: 100vw;
   text-align: center;
   background: #849ebe;
   color: white;
@@ -59,7 +60,9 @@ section:nth-child(9) {
 
 nav {
   white-space: nowrap;
-  background: #37474F;
+  background: #849ebe;
+  width: 20vw;
+  height: 100vh;
 }
 nav ul {
   list-style: none;
