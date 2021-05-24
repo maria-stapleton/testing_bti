@@ -18,7 +18,7 @@
 }
 
 section {
-  height: 100vh;
+  height: auto;
   width: 80vw;
   float: right;
   font-size: 40px;
@@ -86,73 +86,64 @@ nav ul li a.current {
   background: black;
 }
 
-h2 {
-  color: #ed666f;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 20px;
 }
 
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  margin: 0.5rem 0;
+/* Non-grid specific CSS */
+body {
+  margin: 10px;
+  color: #374046;
+  background-color: #374046;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.15em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (min-width: 600px) {
-  .grid-wrapper {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 1rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .grid-wrapper {
-    grid-template-columns: 1fr 2fr 1fr 2fr;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .grid-wrapper {
-    grid-template-columns: 1fr 2fr;
-  }
+.item {
+  background-color: #ffffff;
 }
 
-article {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #4d4d4d;
+.photothumb {
+  width: 100%;
 }
-article p {
-  font-family: "Karla", sans-serif;
-  font-size: 0.95rem;
-  color: #c8c8c8;
+
+.title {
+  padding: 20px;
 }
-article:nth-child(4) {
-  grid-area: 1/2/4/3;
+
+.title h3 {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-transform: uppercase;
 }
-@media screen and (min-width: 1025px) {
-  article:nth-child(8) {
-    grid-area: 1/4/4/-1;
-  }
+
+.project .title {
+  background-color: #607d8b;
 }
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  article:nth-child(8) {
-    grid-area: 4/2/8/3;
-  }
+
+.blog .title {
+  background-color: #ff9800;
 }
-@media screen and (min-width: 1025px) {
-  article:nth-child(4n+3) {
-    border-bottom: 0;
-  }
+
+.photo .title {
+  background-color: #f44336;
 }
-@media screen and (min-width: 1025px) {
-  article:nth-child(4) {
-    border-right: 1px solid #4d4d4d;
-    padding-right: 1rem;
-  }
+
+.desc {
+  padding: 10px 10px 5px 10px;
 }
-@media screen and (min-width: 600px) {
-  article:nth-child(4n) {
-    border-left: 1px solid #4d4d4d;
-    border-bottom: 0;
-    padding-left: 1rem;
-  }
+
+.desc img {
+  width: 50%;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.desc p {
+  margin-bottom: 10px;
 }
