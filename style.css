@@ -1,5 +1,5 @@
 .header {
-  height: 15vh;
+  height: 10vh;
   width: 100vw;
   text-align: center;
   background: #849ebe;
@@ -61,7 +61,7 @@ section:nth-child(9) {
 nav {
   white-space: nowrap;
   background: #849ebe;
-  width: 20vw;
+  width: 15vw;
   height: 100vh;
 }
 nav ul {
