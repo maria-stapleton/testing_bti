@@ -56,7 +56,7 @@
 
 section {
   height: fit-content;
-  width: relative;
+  width: sticky;
   float: right;
   background-color: white;
   display: flex;
