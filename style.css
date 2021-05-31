@@ -21,20 +21,20 @@
   background-color: #fff;
   overflow: visible;
   height: 100%;
-  width: 60px;
+  width: 160px;
   position: fixed;
 
 }
 .nav-vertical .mask {
   height: 100%;
-  width: 60px;
+  width: 160px;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .nav-vertical .list {
   display: vertical-align;
   margin: auto;
-  max-width: 60px;
+  max-width: 160px;
   max-height: 100%;
 }
 .nav-vertical .list li {
@@ -56,7 +56,7 @@
 
 section {
   height: fit-content;
-  width: calc(100% - 60px);
+  width: calc(100% - 160px);
   float: right;
   background-color: white;
   display: flex;
