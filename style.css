@@ -56,7 +56,7 @@ section:nth-child(9) {
 
 .nav-vertical {
   background-color: #fff;
-  overflow: scroll;
+  overflow: hidden;
   height: 100%;
   width: 20ex;
 }
@@ -73,7 +73,8 @@ section:nth-child(9) {
   max-height: 100%;
 }
 .nav-vertical .list li {
-  display: table-cell;
+  display: vertical-align;
+
 }
 .nav-vertical .list a {
   display: block;
