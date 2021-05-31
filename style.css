@@ -76,6 +76,7 @@ nav ul li a {
   display: block;
   padding: 50% 25% 50% 25%;
   color: darkslategrey;
+  font-weight: bold;
   text-decoration: none;
 }
 nav ul li a.current {
@@ -92,6 +93,8 @@ body2 {
 
 h2 {
   color: #849ebe;
+  font-size: 300%;
+  font-weight: bolder;
 }
 
 .grid-container {
@@ -112,20 +115,48 @@ h2 {
   transition: all 0.25s ease-in-out;
 }
 .grid-container div:hover img {
-  filter: grayscale(0);
+  filter: opacity(50%);
 }
 .grid-container div:hover {
-  border-color: coral;
+  border-color: #849ebe;
+}
+.grid-container div h4 {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  color: #EE6346;
+  font-weight: bold;
+  font-size: 20;
 }
 .grid-container div img {
   width: 100%;
-  filter: grayscale(100%);
+  filter: opacity(50%);
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
 }
+
+.grid-container div p2 {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  color: #D6D6D6;
+  font-size: 12;
+  font-style: italic;
+}
+
 .grid-container div p {
   margin: 5px 0;
   padding: 0;
   text-align: center;
-  font-style: italic;
+  color: darkslategrey;
+  font-size: 15;
 }
+
+.grid-container div p3 {
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+  color: #EE6346;
+  font-size: 15;
+}
+
