@@ -17,9 +17,12 @@
   position: relative;
 }
 
+.body {
+  width: relative;
+}
 section {
   height: fit-content;
-  width: relative;
+  width: 100%;
   float: right;
   background-color: white;
   display: flex;
