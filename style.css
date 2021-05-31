@@ -63,7 +63,7 @@ section:nth-child(9) {
 .nav-vertical .mask {
   height: 100%;
   width: 20ex;
-  overflow-y: auto;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .nav-vertical .list {
@@ -81,7 +81,7 @@ section:nth-child(9) {
   padding: 0 1em;
   text-decoration: none;
   color: #333;
-  height: 100%;
+  height: 3em;
   line-height: 3;
 }
 .nav-vertical .list a:hover {
