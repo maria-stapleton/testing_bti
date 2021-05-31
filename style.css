@@ -19,9 +19,9 @@
 
 .nav-vertical {
   background-color: #fff;
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
-  width: calc(100% - 30px);
+  width: 30px;
   position: fixed;
 
 }
@@ -56,7 +56,7 @@
 
 section {
   height: fit-content;
-  width: calc(100% - );
+  width: calc(100% - 30px);
   float: right;
   background-color: white;
   display: flex;
