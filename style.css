@@ -19,7 +19,7 @@
 
 section {
   height: fit-content;
-  width: auto;
+  width: relative;
   float: right;
   background-color: white;
   display: flex;
