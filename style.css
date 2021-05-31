@@ -63,7 +63,7 @@ section:nth-child(9) {
 .nav-vertical .mask {
   height: 100%;
   width: 20ex;
-  overflow-x: auto;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 .nav-vertical .list {
