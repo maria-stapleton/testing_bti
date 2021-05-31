@@ -80,7 +80,7 @@ section:nth-child(9) {
   padding: 0 1em;
   text-decoration: none;
   color: #333;
-  height: 3em;
+  height: 100%;
   line-height: 3;
 }
 .nav-vertical .list a:hover {
