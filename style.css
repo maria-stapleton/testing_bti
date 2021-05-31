@@ -49,6 +49,8 @@
   color: #333;
   height: 3em;
   line-height: 3;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 .nav-vertical .list a:hover {
   border-left: 2px solid black;
@@ -148,7 +150,7 @@ h2 {
   margin: 5px 0;
   padding: 0;
   text-align: center;
-  color: #D6D6D6;
+  color: #acacac;
   font-size: 12;
   font-style: italic;
 }
@@ -156,16 +158,16 @@ h2 {
 .grid-container div p {
   margin: 5px 0;
   padding: 0;
-  text-align: center;
+  text-align: justify;
   color: darkslategrey;
   font-size: 15;
 }
 
-.grid-container div p3 {
+.a{
   margin: 5px 0;
   padding: 0;
   text-align: left;
   color: #EE6346;
-  font-size: 15;
+  font-size: 12;
 }
 
