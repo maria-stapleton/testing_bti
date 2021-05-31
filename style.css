@@ -19,7 +19,7 @@
 
 section {
   height: fit-content;
-  width: 87vw;
+  width: auto;
   float: right;
   background-color: white;
   display: flex;
@@ -64,14 +64,14 @@ section:nth-child(9) {
 }
 .nav-vertical .mask {
   height: 100%;
-  width: 5em;
+  width: 6em;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .nav-vertical .list {
   display: vertical-align;
-  margin: 0 auto;
-  max-width: 5em;
+  margin-left: 2em;
+  max-width: 6em;
   max-height: 100%;
 }
 .nav-vertical .list li {
@@ -123,7 +123,7 @@ h2 {
   transition: all 0.25s ease-in-out;
 }
 .grid-container div:hover img {
-  filter: opacity(50%);
+  filter: opacity(100%);
 }
 .grid-container div:hover {
   border-color: #849ebe;
@@ -138,7 +138,7 @@ h2 {
 }
 .grid-container div img {
   width: 100%;
-  filter: opacity(100%);
+  filter: opacity(50%);
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
 }
