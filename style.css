@@ -109,14 +109,14 @@ h2 {
 }
 
 .grid-container {
-  columns: 4 200px;
-  column-gap: 3 rem;
+  columns: 3 250px;
+  column-gap: 5 rem;
   width: 90%;
   margin: 0 auto;
 }
 .grid-container div {
   width: 250px;
-  margin: 0 1.5rem 1.5rem 0;
+  margin: 0 4rem 4rem 0;
   display: inline-block;
   width: 100%;
   border: solid 2px black;
