@@ -110,7 +110,7 @@ h2 {
 
 .grid-container {
   columns: 3 230px;
-  column-gap: 10 rem;
+  column-gap: 10rem;
   width: 90%;
   margin: 0 auto;
 }
