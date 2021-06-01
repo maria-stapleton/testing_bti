@@ -171,3 +171,11 @@ h2 {
   font-size: 12;
 }
 
+.grid-container div p3{
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+  color: #EE6346;
+  font-size: 12;
+}
+
