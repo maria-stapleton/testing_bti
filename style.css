@@ -109,8 +109,8 @@ h2 {
 }
 
 .grid-container {
-  columns: 5 200px;
-  column-gap: 1.5rem;
+  columns: 4 200px;
+  column-gap: 3 rem;
   width: 90%;
   margin: 0 auto;
 }
@@ -140,14 +140,15 @@ h2 {
   font-size: 20;
 }
 .grid-container div img {
-  width: 60%;
+  width: 75%;
+  text-align: center;
   filter: opacity(50%);
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
 }
 
 .grid-container div p2 {
-  margin: 5px 0;
+  margin: 10px 0;
   padding: 0;
   text-align: center;
   color: #acacac;
@@ -156,7 +157,7 @@ h2 {
 }
 
 .grid-container div p {
-  margin: 5px 0;
+  margin: 10px 0;
   padding: 0;
   text-align: justify;
   color: darkslategrey;
@@ -164,7 +165,7 @@ h2 {
 }
 
 .grid-container div a{
-  margin: 5px 0;
+  margin: 10px 0;
   padding: 0;
   text-align: left;
   color: #EE6346;
@@ -172,7 +173,7 @@ h2 {
 }
 
 .grid-container div p3{
-  margin: 5px 0;
+  margin: 10px 0;
   padding: 0;
   text-align: left;
   color: #EE6346;
