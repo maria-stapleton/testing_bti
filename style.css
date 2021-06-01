@@ -142,6 +142,7 @@ h2 {
 .grid-container div img {
   width: 65%;
   text-align: center;
+  postion: center;
   display: block;
   filter: opacity(50%);
   border-radius: 5px;
@@ -150,7 +151,7 @@ h2 {
 
 .grid-container div p2 {
   margin: 5px 0;
-  padding: 5px 20px 5px 10px;
+  padding: 5px 20px 5px 20px;
   text-align: center;
   color: #acacac;
   font-size: 12;
@@ -159,7 +160,7 @@ h2 {
 
 .grid-container div p {
   margin: 5px 0;
-  padding: 5px 20px 5px 10px;
+  padding: 5px 20px 5px 20px;
   text-align: justify;
   color: darkslategrey;
   font-size: 15;
@@ -167,7 +168,7 @@ h2 {
 
 .grid-container div a{
   margin: 5px 0;
-  padding: 5px 20px 5px 10px;
+  padding: 5px 20px 5px 20px;
   text-align: left;
   color: #EE6346;
   font-size: 12;
@@ -175,7 +176,7 @@ h2 {
 
 .grid-container div p3{
   margin: 10px 0;
-  padding: 5px 20px 5px 10px;
+  padding: 5px 20px 5px 20px;
   text-align: left;
   color: #EE6346;
   font-size: 12;
