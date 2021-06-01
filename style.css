@@ -142,7 +142,7 @@ h2 {
 .grid-container div img {
   width: 65%;
   text-align: center;
-  postion: center;
+  position: center;
   display: block;
   filter: opacity(50%);
   border-radius: 5px;
