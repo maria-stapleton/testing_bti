@@ -2,8 +2,8 @@
   height: 2.5em;
   width: 100vw;
   text-align: center;
-  background: #849ebe;
-  color: white;
+  background: transparent;
+  color: #849ebe;
   font-size: 30px;
   font-weight: 800;
   overflow: visible;
@@ -92,6 +92,9 @@ section:nth-child(8) {
 }
 section:nth-child(9) {
   background: #f0f0f0;
+}
+section:nth-child(10) {
+  background: white;
 }
 
 body2 {
